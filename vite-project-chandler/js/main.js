@@ -1,7 +1,4 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import '/style/style.css'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -20,5 +17,13 @@ document.querySelector('#app').innerHTML = `
     </p>
   </div>
 `
-
-setupCounter(document.querySelector('#counter'))
+document.querySelector('.filters').innerHTML =`
+<ul>
+  <button class="button" id="all-selections">All Selections</button>
+  <button class="button" id="chinese">Chinese</button>
+  <button class="button" id="japanese">Japanese</button>
+  <button class="button" id="korean">Korean</button>
+  <button class="button" id="thai">Thai</button>
+  <button class="button" id="vietnamese">Vietnamese</button>
+</ul>
+`
