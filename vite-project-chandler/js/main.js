@@ -1,5 +1,6 @@
 import "../style/style.css";
 import { DOMselectors } from "./doms";
+import {songs} from "./songs";
 
 const filterhtml = `
 <ul>
@@ -11,4 +12,5 @@ const filterhtml = `
   <button class="button" id="vietnamese">Vietnamese</button>
 </ul>
 `
-DOMselectors.filters.insertAdjacentHTML("afterbegin", filterhtml);
+console.log(songs);
+// DOMselectors.filters.insertAdjacentHTML("afterbegin", filterhtml);
