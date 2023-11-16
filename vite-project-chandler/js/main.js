@@ -1,6 +1,7 @@
 import "../style/style.css";
+import { DOMselectors } from "./doms";
 
-document.getElementById(".filters").insertAdjacentHTML("afterbegin" , `
+const filterhtml = `
 <ul>
   <button class="button" id="all-selections">All Selections</button>
   <button class="button" id="chinese">Chinese</button>
@@ -9,6 +10,5 @@ document.getElementById(".filters").insertAdjacentHTML("afterbegin" , `
   <button class="button" id="thai">Thai</button>
   <button class="button" id="vietnamese">Vietnamese</button>
 </ul>
-`);
-
-console.log("whats good gang");
+`
+DOMselectors.filters.insertAdjacentHTML("afterbegin", filterhtml);
