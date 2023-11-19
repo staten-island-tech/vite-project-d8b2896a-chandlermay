@@ -2,15 +2,14 @@ import "../style/style.css";
 import { DOMselectors } from "./doms";
 import {songs} from "./songs";
 
-const filterhtml = `
-<ul>
-  <button class="button" id="all-selections">All Selections</button>
-  <button class="button" id="chinese">Chinese</button>
-  <button class="button" id="japanese">Japanese</button>
-  <button class="button" id="korean">Korean</button>
-  <button class="button" id="thai">Thai</button>
-  <button class="button" id="vietnamese">Vietnamese</button>
-</ul>
-`
-console.log(songs);
-// DOMselectors.filters.insertAdjacentHTML("afterbegin", filterhtml);
+function createCard(songs) {
+  const card = `
+  <div class="card">
+        <h4>${songs.name}</h4>
+        <img src=${songs.image}>
+      </div>
+  `
+  songs.forEach(song => {
+    DOMselectors.container.insertAdjacentElement("afterbegin",card)
+  });
+};
