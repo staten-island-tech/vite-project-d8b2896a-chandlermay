@@ -3,13 +3,13 @@ import { DOMselectors } from "./doms";
 import { songs } from "./songs";
 
 function createCard(arr) {
-  arr.forEach((el) =>
-    DOMselectors.container.insertAdjacentElement("afterbegin", `
-      <div class="card">
-          <h4>${el.name}</h4>
-          <h5>${el.artist}</h5>
-          <img src=${el.image}>
+    arr.forEach((obj) => {
+    const card = `
+  <div class="card">
+          <h4>${obj.name}</h4>
+          <h5>${obj.artist}</h5>
         </div>
-      `));
+  `
+    DOMselectors.container.insertAdjacentHTML("afterbegin", card)});
 };
 createCard(songs);
