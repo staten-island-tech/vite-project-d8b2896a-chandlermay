@@ -1,15 +1,15 @@
 import "../style/style.css";
 import { DOMselectors } from "./doms";
-import {songs} from "./songs";
+import { songs } from "./songs";
 
 function createCard(arr) {
-    arr.forEach((el)=>
-      DOMselectors.container.insertAdjacentElement("afterbegin",`
+  arr.forEach((el) =>
+    DOMselectors.container.insertAdjacentElement("afterbegin", `
       <div class="card">
-          <h4>${arr.name}</h4>
-          <h5>${arr.artist}</h5>
-          <img src=${arr.image}>
+          <h4>${el.name}</h4>
+          <h5>${el.artist}</h5>
+          <img src=${el.image}>
         </div>
       `));
-  };
-  createCard(songs);
+};
+createCard(songs);
