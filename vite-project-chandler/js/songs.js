@@ -3,7 +3,7 @@ const songs = [
         name: "Space Cadet",
         genre: "Rap",
         artist: "Metro Boomin",
-        featured: "Gunna"
+        featured: "Gunna",
     },
     
     {
@@ -399,4 +399,4 @@ const songs = [
         featured:"",
     },
 ]
-export { songs };
+export {songs};
