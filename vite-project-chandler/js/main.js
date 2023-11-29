@@ -13,5 +13,4 @@ function createCard(songs) {
     DOMselectors.container.insertAdjacentHTML("afterbegin", card)
   });
 };
-createCard(songs);
-console.log(DOMselectors.container);
+  createCard(songs);
