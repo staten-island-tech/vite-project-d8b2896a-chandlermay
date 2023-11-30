@@ -14,3 +14,7 @@ function createCard(arr) {
   });
 };
   createCard(songs);
+
+function filter(subject) {
+  DOMselectors.button.addEventListener("click", filter(subject))
+};
