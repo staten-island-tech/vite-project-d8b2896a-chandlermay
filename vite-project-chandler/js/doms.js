@@ -1,6 +1,6 @@
 const DOMselectors = {
-    filters: document.getElementById(".filters"),
-    container: document.getElementById(".container"),
+    filters: document.querySelectorAll(".filters"),
+    container: document.querySelector(".container"),
     button: document.querySelectorAll(".button"),
 }
 

@@ -10,11 +10,15 @@ function createCard(arr) {
           <h5>${obj.artist}</h5>
         </div>
   `
-    DOMselectors.container.insertAdjacentHTML("afterbegin", card)
-  });
+DOMselectors.container.insertAdjacentHTML("afterbegin", card)
+});
 };
-  createCard(songs);
-
+createCard(songs);
+/* 
 function filter(subject) {
-  DOMselectors.button.addEventListener("click", filter(subject))
-};
+  function x() {
+
+  }
+  DOMselectors.button.addEventListener("click", x())
+}; */ 
+
