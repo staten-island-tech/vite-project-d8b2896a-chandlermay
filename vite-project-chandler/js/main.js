@@ -10,10 +10,21 @@ function createCard(arr) {
           <h5>${obj.artist}</h5>
         </div>
   `
-DOMselectors.container.insertAdjacentHTML("afterbegin", card)
+DOMselectors.container.insertAdjacentHTML("beforeend", card)
 });
 };
 createCard(songs);
+
+DOMselectors.theme.addEventListener( "click", function(){
+  if (document.body.classList.contains("spotifyTheme")) {
+    document.body.classList.add("appleTheme");
+    document.body.classList.remove("spotifyTheme");
+  } else {
+    document.body.classList.add("spotifyTheme");
+    document.body.classList.remove("appleTheme");
+  }
+}
+);
 /* 
 function filter(subject) {
   function x() {

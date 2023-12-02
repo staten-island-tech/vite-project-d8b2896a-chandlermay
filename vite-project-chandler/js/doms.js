@@ -1,7 +1,7 @@
 const DOMselectors = {
-    filters: document.querySelectorAll(".filters"),
     container: document.querySelector(".container"),
-    button: document.querySelectorAll(".button"),
+    button: document.querySelector(".Sbutton"),
+    theme: document.querySelector("#theme"),
 }
 
 export { DOMselectors };
