@@ -1,6 +1,9 @@
 :root {
---darkBlue: #1f266d;
-
+--green: #1DB954;
+--black: #191414;
+--white: #f2f1f1;
+--lightGrey: #b3b3b3;
+--darkGrey: #535353;
 }
 
 .container { 
