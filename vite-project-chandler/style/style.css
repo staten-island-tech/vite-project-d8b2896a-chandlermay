@@ -4,9 +4,33 @@
     --white: #ffffff;
     --lightGrey: #b3b3b3;
     --darkGrey: #535353;
+
     --pink: #fa57c1;
+    --darkPink: #b166cc;
     --purple: #7572ff;
     --appleBlue: #69a6f9;
+
+    --primary: var(--green);
+    --secondary: var(-black);
+    --third: var(--white);
+    --fourth: var(--lightGrey);
+    --fifth: var(--darkGrey);
+}
+
+.spotifyTheme {
+    --primary: var(--green);
+    --secondary: var(-black);
+    --third: var(--white);
+    --fourth: var(--lightGrey);
+    --fifth: var(--darkGrey);
+}
+
+.appleTheme {
+    --primary: var(--pink);
+    --secondary: var(--darkPink);
+    --third: var(--purple);
+    --fourth: var(--appleBlue);
+    --fifth: var(--white);
 }
 
 .container {
