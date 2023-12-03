@@ -2,6 +2,7 @@ import "../style/style.css";
 import { DOMselectors } from "./doms";
 import { songs } from "./songs";
 
+//CARD CREATOR
 function createCard(arr) {
   arr.forEach((obj) => {
     const card = `
@@ -10,12 +11,13 @@ function createCard(arr) {
           <h5>${obj.artist}</h5>
         </div>
   `
-DOMselectors.container.insertAdjacentHTML("beforeend", card)
-});
+    DOMselectors.container.insertAdjacentHTML("beforeend", card)
+  });
 };
 createCard(songs);
 
-DOMselectors.theme.addEventListener( "click", function(){
+//THEME CHANGER
+DOMselectors.theme.addEventListener("click", function () {
   if (document.body.classList.contains("spotifyTheme")) {
     document.body.classList.add("appleTheme");
     document.body.classList.remove("spotifyTheme");
@@ -25,11 +27,11 @@ DOMselectors.theme.addEventListener( "click", function(){
   }
 }
 );
-/* 
-function filter(subject) {
-  function x() {
 
-  }
-  DOMselectors.button.addEventListener("click", x())
-}; */ 
+//FILTER FUNCTION
+DOMselectors.button.addEventListener("click", function () {
+const filteredArr = songs.filter((song.genre) === "Rap" );
+DOMselectors.container.innerHTML = "";
+createCard(filteredArr);
+});
 

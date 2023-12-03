@@ -1,5 +1,5 @@
 :root {
-    --green: #1DB954;
+    --green: #1ab14f;
     --black: #191414;
     --white: #ffffff;
     --lightGrey: #b3b3b3;
@@ -67,6 +67,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    height: 100vw;
     padding-top: 10%;
     background: var(--primary);
 }
@@ -79,5 +80,10 @@
     height: 23%;
     background-color: var(--fifth);
     border-radius: 20%;
-    
+}
+
+#filters {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: var(--primary);
 }
