@@ -1,6 +1,6 @@
 const DOMselectors = {
     container: document.querySelector(".container"),
-    button: document.querySelector(".Sbutton"),
+    button: document.querySelectorAll(".Sbutton"),
     theme: document.querySelector("#theme"),
 }
 
