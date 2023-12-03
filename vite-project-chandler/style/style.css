@@ -1,7 +1,7 @@
 :root {
     --green: #1ab14f;
     --black: #191414;
-    --white: #ffffff;
+    --white: #d8d8d8;
     --lightGrey: #b3b3b3;
     --darkGrey: #535353;
 
@@ -23,13 +23,15 @@
     --third: var(--white);
     --fourth: var(--lightGrey);
     --fifth: var(--darkGrey);
+    --buttoncolor: #1ED760;
 }
 .appleTheme {
-    --primary: var(--pink);
-    --secondary: var(--darkPink);
+    --primary: var(--darkPink);
+    --secondary: var(--pink);
     --third: var(--purple);
     --fourth: var(--appleBlue);
     --fifth: var(--white);
+    --buttoncolor: #71a5ef;
 }
 .Sbutton {
 
@@ -50,7 +52,7 @@
     text-align: center;
     padding: 17px 48px;
     color: #000000;
-    background-color: #1ED760;
+    background-color: var(--buttoncolor);
     height: 48px;
 
     :hover {
