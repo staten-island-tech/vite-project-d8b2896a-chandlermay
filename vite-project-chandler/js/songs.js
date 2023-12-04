@@ -111,19 +111,19 @@ const songs = [
     },
     {
         name: "alright",
-        genre: ["R&B","Pop","lo-fi"],
+        genre: ["R&B"],
         artist:"Keshi",
         featured:"",
     },
     {
         name: "2 soon",
-        genre:["R&B","Pop","lo-fi"],
+        genre:["R&B"],
         artist:"Keshi",
         featured:"",
     },
     {
         name: "onoffonoff",
-        genre:["R&B","Pop","lo-fi"],
+        genre:["R&B"],
         artist:"Keshi",
         featured:"",
     },
@@ -147,20 +147,20 @@ const songs = [
     },
     {
         name:"the reaper",
-        genre:["R&B","Pop","lo-fi"],
+        genre:["R&B"],
         artist:"Keshi",
         featured:"",
     },
     
     {
         name:"skeletons",
-        genre:["R&B","Pop","lo-fi"],
+        genre:["R&B"],
         artist:"Keshi",
         featured:"",
     },
     {
         name:"like i need u",
-        genre:["R&B","Pop","lo-fi"],
+        genre:["R&B"],
         artist:"Keshi",
         featured:"",
     },
