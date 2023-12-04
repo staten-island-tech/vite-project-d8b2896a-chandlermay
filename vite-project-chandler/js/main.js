@@ -40,18 +40,8 @@ DOMselectors.Alternative.addEventListener("click", function () {
   DOMselectors.container.innerHTML = "";
   createCard(filteredArr);
   });
-DOMselectors.RandB.addEventListener("click", function () {
-  const filteredArr = (songs.filter((songs) => songs.genre === "R&B"));
-  DOMselectors.container.innerHTML = "";
-  createCard(filteredArr);
-  });
-DOMselectors.Pop.addEventListener("click", function () {
-  const filteredArr = (songs.filter((songs) => songs.genre === "Pop"));
-  DOMselectors.container.innerHTML = "";
-  createCard(filteredArr);
-  });
 DOMselectors.Kpop.addEventListener("click", function () {
-  const filteredArr = (songs.filter((songs) => songs.genre === "K-Pop"));
+  const filteredArr = (songs.filter((songs) => songs.genre === "K-pop"));
   DOMselectors.container.innerHTML = "";
   createCard(filteredArr);
   });

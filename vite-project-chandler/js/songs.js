@@ -104,82 +104,9 @@ const songs = [
         featured:"",
     },
     {
-        name: "greedy",
-        genre:"Pop",
-        artist:"Tate McRae",
-        featured:"",
-    },
-    {
-        name: "alright",
-        genre: ["R&B"],
-        artist:"Keshi",
-        featured:"",
-    },
-    {
-        name: "2 soon",
-        genre:["R&B"],
-        artist:"Keshi",
-        featured:"",
-    },
-    {
-        name: "onoffonoff",
-        genre:["R&B"],
-        artist:"Keshi",
-        featured:"",
-    },
-    {
-        name: "deja vu",
-        genre:"Pop",
-        artist:"Olivia Rodrigo",
-        featured:"",
-    },
-    {
-        name:"Home for the Summer",
-        genre:"Pop",
-        artist:"Sara Kays",
-        featured:"",
-    },
-    {
         name:"Apocalypse",
         genre:"Alternative",
         artist:"Cigarettes After Sex",
-        featured:"",
-    },
-    {
-        name:"the reaper",
-        genre:["R&B"],
-        artist:"Keshi",
-        featured:"",
-    },
-    
-    {
-        name:"skeletons",
-        genre:["R&B"],
-        artist:"Keshi",
-        featured:"",
-    },
-    {
-        name:"like i need u",
-        genre:["R&B"],
-        artist:"Keshi",
-        featured:"",
-    },
-    {
-        name:"favorite crime",
-        genre:"Pop",
-        artist:"Olivia Rodrigo",
-        featured:"",
-    },
-    {
-        name:"good 4 u",
-        genre:"Pop",
-        artist:"Olivia Rodrigo",
-        featured:"",
-    },
-    {
-        name:"enough for you",
-        genre:"Pop",
-        artist:"Olivia Rodrigo",
         featured:"",
     },
     {
