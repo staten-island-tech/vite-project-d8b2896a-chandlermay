@@ -7,8 +7,9 @@ function createCard(arr) {
   arr.forEach((obj) => {
     const card = `
   <div class="card">
-          <h4>${obj.name}</h4>
-          <h5>${obj.artist}</h5>
+          <h3>${obj.name}</h3>
+          <img src="${obj.image}" class="image">
+          <h4>${obj.artist}</h4>
         </div>
   `
     DOMselectors.container.insertAdjacentHTML("beforeend", card)
