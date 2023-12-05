@@ -222,7 +222,7 @@ const songs = [
         genre:"K-pop",
         artist:"Le Sserafim",
         featured:"",
-        image: "https://static.wikia.nocookie.net/kpop/images/f/fe/LE_SSERAFIM_Perfect_Night_album_cover.png/revision/latest?cb=20231027184333"
+        image: "https://images.genius.com/0852a50ec7a4c42b97bb5aba6b96a36e.1000x1000x1.png"
     },
     {
         name:"Talk that Talk",
