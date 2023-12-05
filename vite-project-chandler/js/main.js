@@ -35,27 +35,27 @@ DOMselectors.Rap.addEventListener("click", function () {
   const filteredArr = (songs.filter((songs) => songs.genre === "Rap"));
   DOMselectors.container.innerHTML = "";
   createCard(filteredArr);
-  });
+});
 DOMselectors.Alternative.addEventListener("click", function () {
   const filteredArr = (songs.filter((songs) => songs.genre === "Alternative"));
   DOMselectors.container.innerHTML = "";
   createCard(filteredArr);
-  });
+});
 DOMselectors.Kpop.addEventListener("click", function () {
   const filteredArr = (songs.filter((songs) => songs.genre === "K-pop"));
   DOMselectors.container.innerHTML = "";
   createCard(filteredArr);
-  });
+});
 DOMselectors.ChinesePop.addEventListener("click", function () {
   const filteredArr = (songs.filter((songs) => songs.genre === "Chinese Pop"));
   DOMselectors.container.innerHTML = "";
   createCard(filteredArr);
-  });
+});
 DOMselectors.Instrumentals.addEventListener("click", function () {
   const filteredArr = (songs.filter((songs) => songs.genre === "Instrumentals"));
   DOMselectors.container.innerHTML = "";
   createCard(filteredArr);
-  });
+});
 DOMselectors.All.addEventListener("click", function () {
   createCard(songs);
-  });
+});

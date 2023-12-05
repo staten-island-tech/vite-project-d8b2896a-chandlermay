@@ -1,5 +1,6 @@
 :root {
-    --green: #65a488; /*1ab14f*/
+    --green: #65a488;
+    /*1ab14f*/
     --navy: #08101b;
     --prettyPink: #f1bac6;
     --white: #d7d0d0;
@@ -13,8 +14,6 @@
     --third: var(--white);
     --fourth: var(--lightGrey);
     --fifth: var(--darkGrey);
-
-
 }
 
 .spotifyTheme {
@@ -25,6 +24,7 @@
     --fifth: var(--green);
     --buttoncolor: #1ED760;
 }
+
 .appleTheme {
     --primary: var(--darkPink);
     --secondary: var(--pink);
@@ -33,6 +33,7 @@
     --fifth: var(--purple);
     --buttoncolor: #71a5ef;
 }
+
 .Sbutton {
 
     display: inline-block;
@@ -59,7 +60,7 @@
         transform: scale(1.04);
         background-color: #21e065;
     }
-    
+
 }
 
 .image {
@@ -89,7 +90,7 @@
 }
 
 #filters {
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     background-color: var(--primary);
     padding-top: 4rem;
