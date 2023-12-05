@@ -1,36 +1,36 @@
 :root {
-    --green: #1ab14f;
-    --black: #191414;
-    --white: #d8d8d8;
-    --lightGrey: #b3b3b3;
-    --darkGrey: #636161;
-
+    --green: #65a488; /*1ab14f*/
+    --navy: #08101b;
+    --prettyPink: #f1bac6;
+    --white: #d7d0d0;
     --pink: #fa57c1;
     --darkPink: #b166cc;
     --purple: #7572ff;
     --appleBlue: #69a6f9;
-
+    --black: #000000;
     --primary: var(--green);
     --secondary: var(--black);
     --third: var(--white);
     --fourth: var(--lightGrey);
     --fifth: var(--darkGrey);
+
+
 }
 
 .spotifyTheme {
-    --primary: var(--green);
-    --secondary: var(-black);
-    --third: var(--white);
+    --primary: var(--navy);
+    --secondary: var(--prettyPink);
+    --third: var(--black);
     --fourth: var(--lightGrey);
-    --fifth: var(--darkGrey);
+    --fifth: var(--green);
     --buttoncolor: #1ED760;
 }
 .appleTheme {
     --primary: var(--darkPink);
     --secondary: var(--pink);
-    --third: var(--purple);
+    --third: var(--prettyPink);
     --fourth: var(--appleBlue);
-    --fifth: var(--white);
+    --fifth: var(--purple);
     --buttoncolor: #71a5ef;
 }
 .Sbutton {
@@ -72,7 +72,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 10%;
+    padding-top: 7rem;
     background: var(--primary);
 }
 
@@ -85,10 +85,12 @@
     background-color: var(--fifth);
     border-radius: 20%;
     margin-bottom: 5rem;
+    color: var(--third);
 }
 
 #filters {
     display:flex;
     justify-content: space-evenly;
     background-color: var(--primary);
+    padding-top: 4rem;
 }
