@@ -323,7 +323,7 @@ const songs = [
         image: "https://i.scdn.co/image/ab67616d0000b2735a45eb8628b5a5046f5c80a2"
     },
     {
-        name:"Interstellar Main Theme - Piano",
+        name:"Interstellar Main Theme",
         genre:"Instrumentals",
         artist:"Hans Zimmer",
         featured:"",
@@ -337,7 +337,7 @@ const songs = [
         image: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5b/bf/fa/5bbffaef-3dc9-a410-3d76-3670eedd787a/198001761102.png/600x600bf-60.jpg"
     },
     {
-        name:"The Force Theme - Piano Version",
+        name:"The Force Theme",
         genre:"Instrumentals",
         artist:"John Williams",
         featured:"",
