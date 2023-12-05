@@ -16,6 +16,10 @@
     --fifth: var(--darkGrey);
 }
 
+html {
+    background-color: var(--primary);
+}
+
 .spotifyTheme {
     --primary: var(--navy);
     --secondary: var(--prettyPink);
