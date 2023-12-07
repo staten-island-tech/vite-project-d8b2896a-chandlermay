@@ -59,3 +59,13 @@ DOMselectors.Instrumentals.addEventListener("click", function () {
 DOMselectors.All.addEventListener("click", function () {
   createCard(songs);
 });
+
+//Mr whalens version
+/* function filters(){
+  DOMselectors.button.forEach((btn) => btn.addEventListener("click" , function(){
+  let category = btn.textContent.toLowerCase()
+  let newArr = songs.filter((obj) => obj.genre.includes(category))
+  DOMselectors.container.innerHTML=""
+  createCard(newArr)
+  }))
+} */
